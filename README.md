@@ -6,6 +6,20 @@ Windows 10/11 x64 桌面挂件，当前版本 1.1.0。支持阿里云 ECS、腾�
 
 [下载最新便携版](https://github.com/toggerdemetri-lgtm/cloudpulse-usage-bars/releases/latest)
 
+发行附件只提供**普通便携版、源码和 SHA256 校验文件**，不制作或发布插件版。
+
+## 界面预览
+
+下方颜色条使用演示数值展示颜色和布局，并非实时服务器数据；设置图未填写任何凭证。
+
+| 桌面横条 | 任务栏竖条 |
+| --- | --- |
+| <img src="docs/images/desktop-bars.png" width="384" alt="桌面四根横向颜色条"> | <img src="docs/images/taskbar-bars.png" width="84" alt="任务栏四根竖向颜色条"> |
+
+### 设置界面
+
+<img src="docs/images/settings.png" width="430" alt="云厂商选择与只读凭证设置界面，凭证为空">
+
 ## 使用与升级
 
 1. 解压便携版 ZIP，在固定目录双击“云脉·用量颜色条.exe”，无需安装 .NET 或管理员权限。
