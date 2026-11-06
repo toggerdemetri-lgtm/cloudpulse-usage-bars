@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net10.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>disable</ImplicitUsings>
+    <AssemblyName>云脉·用量颜色条</AssemblyName>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+    <Version>1.1.0</Version>
+    <Product>云脉·用量颜色条</Product>
+    <Title>云脉·用量颜色条</Title>
+    <Description>桌面上的云服务器用量脉搏</Description>
+    <ApplicationIcon>Assets/App.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="../UsageIsland.Core/UsageIsland.Core.csproj" />
+    <PackageReference Include="AlibabaCloud.SDK.Cms20190101" Version="4.0.11" />
+    <PackageReference Include="TencentCloudSDK.Monitor" Version="3.0.1520" />
+    <PackageReference Include="AWSSDK.CloudWatch" Version="4.0.107.4" />
+    <PackageReference Include="HuaweiCloud.SDK.Ces" Version="3.1.216" />
+    <Resource Include="Assets/App.ico" />
+  </ItemGroup>
+</Project>

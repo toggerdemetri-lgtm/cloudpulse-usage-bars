@@ -1,0 +1,6 @@
+<Window x:Class="UsageIsland.App.IslandWindow" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:core="clr-namespace:UsageIsland.Core;assembly=UsageIsland.Core"
+        Title="云脉·用量颜色条" Icon="pack://application:,,,/Assets/App.ico" Width="{x:Static core:WidgetGeometry.LogicalWidth}" Height="{x:Static core:WidgetGeometry.LogicalHeight}" WindowStyle="None" ResizeMode="NoResize" ShowInTaskbar="False" ShowActivated="False" AllowsTransparency="True" Background="Transparent" Topmost="False">
+  <Border x:Name="ContentFrame" Padding="0">
+    <Grid VerticalAlignment="Stretch" x:Name="Bars" />
+  </Border>
+</Window>

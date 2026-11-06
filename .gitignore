@@ -1,0 +1,15 @@
+.tools/
+**/bin/
+**/obj/
+artifacts/
+.vs/
+*.user
+**/settings.json
+.env
+.env.*
+*.pfx
+*.p12
+*.pem
+.publish/
+Thumbs.db
+.DS_Store

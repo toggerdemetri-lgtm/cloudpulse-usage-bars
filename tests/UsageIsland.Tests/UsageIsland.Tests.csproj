@@ -1,0 +1,7 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup><OutputType>Exe</OutputType><TargetFramework>net10.0-windows</TargetFramework><UseWPF>true</UseWPF></PropertyGroup>
+  <ItemGroup><ProjectReference Include="../../src/UsageIsland.Core/UsageIsland.Core.csproj" /></ItemGroup>
+  <ItemGroup><Compile Include="../../src/UsageIsland.App/ConfigurationStore.cs" Link="ConfigurationStore.cs" /></ItemGroup>
+  <ItemGroup><Compile Include="../../src/UsageIsland.App/StartupRegistration.cs" Link="StartupRegistration.cs" /></ItemGroup>
+  <ItemGroup><Compile Include="../../src/UsageIsland.App/CredentialPolicy.cs" Link="CredentialPolicy.cs" /></ItemGroup>
+</Project>

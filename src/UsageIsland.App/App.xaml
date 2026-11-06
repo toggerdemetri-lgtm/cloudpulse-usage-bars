@@ -1,0 +1,11 @@
+<Application x:Class="UsageIsland.App.App" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" ShutdownMode="OnExplicitShutdown">
+  <Application.Resources>
+    <Style TargetType="ToolTip">
+      <Setter Property="Background" Value="#F0202530" />
+      <Setter Property="Foreground" Value="#EEF1F6" />
+      <Setter Property="BorderBrush" Value="#414956" />
+      <Setter Property="Padding" Value="12,9" />
+      <Setter Property="FontSize" Value="12" />
+    </Style>
+  </Application.Resources>
+</Application>
